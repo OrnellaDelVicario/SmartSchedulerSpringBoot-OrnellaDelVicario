@@ -1,5 +1,6 @@
 package com.example.smartscheduler.repo;
 
+import com.example.smartscheduler.model.Person;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +11,5 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface PersonRepository extends CrudRepository {
-}
-G
+public interface PersonRepository extends CrudRepository<Person, Long> {
+        }
