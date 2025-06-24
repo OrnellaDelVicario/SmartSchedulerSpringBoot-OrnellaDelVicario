@@ -2,6 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!-- Task 2: Configure the pom.xml
+Add the Spring Boot starter parent.
+Declare dependencies for:
+Spring Boot Web (REST)
+Spring Data JPA
+H2 Database
+Set Java version.
+Add description and Spring Boot Maven plugin. -->
+
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
